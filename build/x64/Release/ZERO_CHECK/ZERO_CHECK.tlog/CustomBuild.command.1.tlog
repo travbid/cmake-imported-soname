@@ -1,0 +1,10 @@
+^C:\USERS\TRAVERS.BIDDLE\PROJECTS\MYPROJ\BUILD\CMAKEFILES\5483604AE2971C0A0ECD36DFED3A518E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/travers.biddle/Projects/myproj -BC:/Users/travers.biddle/Projects/myproj/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/travers.biddle/Projects/myproj/build/myproj.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

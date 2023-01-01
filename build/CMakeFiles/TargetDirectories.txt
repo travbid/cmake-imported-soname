@@ -1,0 +1,4 @@
+C:/Users/travers.biddle/Projects/myproj/build/CMakeFiles/main.dir
+C:/Users/travers.biddle/Projects/myproj/build/CMakeFiles/INSTALL.dir
+C:/Users/travers.biddle/Projects/myproj/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/travers.biddle/Projects/myproj/build/CMakeFiles/ZERO_CHECK.dir
